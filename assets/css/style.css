@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/tiny-squares/tiny-squares.png);
+}
+
+header {
+    background-color:#ffffff;
+    position: relative;
+    padding: 50px;
+
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 15%;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    text-align: center; 
+    margin: 0 250px; 
+    position: absolute;
+    bottom: 0;  
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 20px 0px;
+}
+
+.aboutme {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px 20px 20px 2px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactme {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px 20px 20px 2px;
+}
+
+.portfolio {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 30%;
+    clear: both;
+    vertical-align: center;
+}
+/*
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}*/
+
