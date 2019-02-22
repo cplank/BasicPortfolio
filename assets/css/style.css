@@ -118,6 +118,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    position: relative;
 }
 
 .column {
@@ -138,6 +139,16 @@ footer {
     }
 }
 
+/*image text styling*/
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*Form Styling*/
 form {
     padding: 10px;
