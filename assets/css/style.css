@@ -118,13 +118,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    position: relative;
+    
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+    position: relative;
 }
 
 .column img {
@@ -139,15 +140,14 @@ footer {
     }
 }
 
+.image1 {
+    position: relative;
+}
+
 /*image text styling*/
 .image-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 /*Form Styling*/
 form {
@@ -175,7 +175,6 @@ input:focus, textarea:focus {
 
 textarea {
     vertical-align: top;
-    height: 5em;
 }
 
 .button {
